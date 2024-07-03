@@ -21,12 +21,6 @@ void setup()
 void qrShowCodeLNURL()
 {
   String qrData = "LNURL1DP68GURN8GHJ7MRWVFAGJ";
-  tft.fillScreen(TFT_BLACK);
-  tft.setTextColor(TFT_WHITE);
-  tft.setTextSize(3);
-  tft.setTextDatum(MC_DATUM);
-  tft.drawString("Please wait while your", tft.width() / 2, tft.height() / 2 - 20);
-  tft.drawString("voucher is printed", tft.width() / 2, tft.height() / 2 + 20);
   
   tft.fillScreen(TFT_WHITE);
   qrData.toUpperCase();
